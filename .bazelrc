@@ -1,0 +1,6 @@
+build --incompatible_remove_native_git_repository=false
+build --cxxopt='-std=c++11'
+build --compilation_mode=dbg
+build --incompatible_remove_native_http_archive=false
+
+build --disk_cache=~/bazel_cache
